@@ -1,0 +1,31 @@
+{
+  "name": "sqs-downloader",
+  "version": "1.0.0",
+  "description": "Download all the messages in a sqs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boristane/sqs-downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boristane/sqs-downloader/issues"
+  },
+  "homepage": "https://github.com/boristane/sqs-downloader#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.4",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.841.0",
+    "logger": "git+https://github.com/boristane/logger.git",
+    "sqs-consumer": "^5.5.0"
+  }
+}
